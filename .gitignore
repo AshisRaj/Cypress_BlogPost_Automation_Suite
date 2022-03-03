@@ -1,3 +1,4 @@
+cypress/fixtures/*.json
 node_modules/
 cypress/videos
 cypress/reports
