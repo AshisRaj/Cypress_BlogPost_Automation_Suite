@@ -1,0 +1,57 @@
+[
+  {
+    "description": "    Desc: Navigate to Google.com and verify the title",
+    "keyword": "Feature",
+    "name": "Navigate to Google.com and verify the title",
+    "line": 2,
+    "id": "navigate-to-google.com-and-verify-the-title",
+    "tags": [
+      {
+        "name": "@UI",
+        "line": 1
+      }
+    ],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "navigate-to-google.com-and-verify-the-title;perform-navigation",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Perform navigation",
+        "tags": [
+          {
+            "name": "@UI",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the Google Web Page",
+            "result": {
+              "status": "passed",
+              "duration": 3756000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I verify the title of the page as 'Google'",
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

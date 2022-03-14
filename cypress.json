@@ -1,12 +1,22 @@
 {    
     "baseUrl": "http://localhost:8085",
     "reporter": "cypress-mochawesome-reporter",
-  "reporterOptions": {
-    "reportDir": "cypress/reports",
-    "charts": true,
-    "reportPageTitle": "Blog-Post: Automation Suite",
-    "embeddedScreenshots": true,
-    "inlineAssets": true
-  },
-  "video": true
+    "reporterOptions": {
+      "reportDir": "cypress/reports",
+      "charts": true,
+      "timestamp": "longDate",
+      "reportPageTitle": "Blog-Post: Automation Suite",
+      "embeddedScreenshots": true,
+      "inlineAssets": true,
+      "overwrite": true,
+      "autoOpen": true,
+      "quiet": true,
+      "saveAllAttempts": true,
+      "debug": true
+    },
+    "video": true,
+    "testFiles": "**/*.{feature,features}",
+ "ignoreTestFiles": ["**/stepDefinitions/*","*.js", "*.md"]
+
+
 }
